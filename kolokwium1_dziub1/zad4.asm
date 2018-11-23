@@ -1,13 +1,13 @@
 .686
 .model flat
 extern _ExitProcess@4 : PROC
-public _main
+;public _main
 
 .data
 Czw		dd 0AAAAAAAAh
 przesuniecie EQU 1
 .code
-_main PROC
+;_main PROC
 	mov cl, 3
 	mov esi, offset Czw
 	mov ax, [esi]	; pobieram 2 bajty na zapas jakby bit w cl byl starszy od 4
@@ -25,5 +25,5 @@ ptl:
 	shr bl, 5
 	push 0
 	call _ExitProcess@4
-_main ENDP
+;_main ENDP
 END

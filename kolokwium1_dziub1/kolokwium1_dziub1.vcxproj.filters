@@ -24,5 +24,17 @@
     <MASM Include="zad4.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="zad3_grB.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="zad4_grB.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="zad3_grC.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="zad4_grC.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

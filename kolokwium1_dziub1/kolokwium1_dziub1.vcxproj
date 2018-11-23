@@ -123,7 +123,11 @@
   <ItemGroup>
     <MASM Include="zad1.asm" />
     <MASM Include="zad3.asm" />
+    <MASM Include="zad3_grB.asm" />
+    <MASM Include="zad3_grC.asm" />
     <MASM Include="zad4.asm" />
+    <MASM Include="zad4_grB.asm" />
+    <MASM Include="zad4_grC.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
