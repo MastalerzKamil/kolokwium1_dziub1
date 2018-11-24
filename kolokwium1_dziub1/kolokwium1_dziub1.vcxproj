@@ -128,6 +128,7 @@
     <MASM Include="zad4.asm" />
     <MASM Include="zad4_grB.asm" />
     <MASM Include="zad4_grC.asm" />
+    <MASM Include="zad5_grC.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

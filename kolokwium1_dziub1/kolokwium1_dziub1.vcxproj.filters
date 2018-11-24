@@ -36,5 +36,8 @@
     <MASM Include="zad4_grC.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="zad5_grC.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
