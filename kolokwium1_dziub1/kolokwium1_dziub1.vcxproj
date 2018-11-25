@@ -133,6 +133,7 @@
     <MASM Include="zad4_grC.asm" />
     <MASM Include="zad5_grC.asm" />
     <MASM Include="zad5_grD.asm" />
+    <MASM Include="zlicz_4bajtowe_utf16.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

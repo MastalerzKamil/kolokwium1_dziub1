@@ -1,7 +1,7 @@
 .686
 .model flat
 extern _ExitProcess@4 : PROC
-public _main
+;public _main
 
 .data
 tablica_kodowa	db 00000000b, 2	; symbol dla 'A'
@@ -10,7 +10,7 @@ tablica_kodowa	db 00000000b, 2	; symbol dla 'A'
 				db 00000110b, 3	; symbol dla 'D'
 
 .code
-_main PROC
+;_main PROC
 	mov ecx, 0	; iterator po lancuchu
 	mov eax, 0
 	mov edx, 0	; edx- indeks tablicy wynikowej
@@ -25,5 +25,5 @@ ptl:
 
 	push 0
 	call _ExitProcess@4
-_main ENDP
+;_main ENDP
 END

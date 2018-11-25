@@ -51,5 +51,8 @@
     <MASM Include="zad5_grD.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="zlicz_4bajtowe_utf16.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
