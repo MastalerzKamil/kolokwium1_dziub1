@@ -1,7 +1,7 @@
 .686
 .model flat
 extern _ExitProcess@4 : PROC
-public _main
+;public _main
 
 .data
 sygnal_s	dd 64 dup (?)
@@ -9,7 +9,7 @@ kernel		dw 4 dup (?)
 sygnal_y	dd 61 dup (?)
 suma_i		dd 0	;suma iloczynow z petli wewnetrznej
 .code
-_main PROC
+;_main PROC
 	mov ebx, 0	; n=0
 	mov edx, 0
 ptl_n:
@@ -32,5 +32,5 @@ ptl_i:
 	jbe ptl_n
 	push 0
 	call _ExitProcess@4
-_main ENDP
+;_main ENDP
 END

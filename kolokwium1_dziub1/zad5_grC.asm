@@ -10,8 +10,8 @@ dane			dd 0
 .code
 ;_main PROC
 	mov esi, offset pamiec
-	mov dl, 00010000b
-	mov bx, 124Ah
+	mov dl, 00010000b	; dla testow.
+	mov bx, 124Ah	; dla testow
 	mov eax, 0
 	mov ax, bx	; kopia bx w ax
 	and ax, 01FFh ; maska dla 9 bitow danych z bx. 

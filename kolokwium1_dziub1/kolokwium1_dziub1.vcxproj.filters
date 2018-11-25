@@ -42,5 +42,14 @@
     <MASM Include="zad1_kdrasz.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="zad4_grD.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="zad3_grD.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="zad5_grD.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
