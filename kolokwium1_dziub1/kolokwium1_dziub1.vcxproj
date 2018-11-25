@@ -122,6 +122,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <MASM Include="zad1.asm" />
+    <MASM Include="zad1_kdrasz.asm" />
     <MASM Include="zad3.asm" />
     <MASM Include="zad3_grB.asm" />
     <MASM Include="zad3_grC.asm" />

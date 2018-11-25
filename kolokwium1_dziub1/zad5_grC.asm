@@ -1,14 +1,14 @@
 .686
 .model flat
 extern _ExitProcess@4 : PROC
-public _main
+;public _main
 
 .data
 pamiec			dw 0AC00h, 1200h
 przesuniecie	dw 0
 dane			dd 0
 .code
-_main PROC
+;_main PROC
 	mov esi, offset pamiec
 	mov dl, 00010000b
 	mov bx, 124Ah
@@ -39,5 +39,5 @@ _main PROC
 	mov [esi], eax
 	push 0
 	call _ExitProcess@4
-_main ENDP
+;_main ENDP
 END
