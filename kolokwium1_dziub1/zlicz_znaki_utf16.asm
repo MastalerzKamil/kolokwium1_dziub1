@@ -1,12 +1,12 @@
 .686
 .model flat
 extern _ExitProcess@4 : PROC
-public _main
+;public _main
 
 .data
 
 .code
-_main PROC
+;_main PROC
 	mov ecx, 0	; iterator po pamieci
 	mov eax, 0	; licznik szukanych slow
 ptl:
@@ -26,5 +26,5 @@ znaleziono_4bajty:
 koniec_wyrazu:
 	push 0
 	call _ExitProcess@4
-_main ENDP
+;_main ENDP
 END

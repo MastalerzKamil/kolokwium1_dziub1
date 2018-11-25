@@ -121,6 +121,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <MASM Include="SMA.asm" />
     <MASM Include="zad1.asm" />
     <MASM Include="zad3_grD.asm" />
     <MASM Include="zad1_kdrasz.asm" />
@@ -134,6 +135,7 @@
     <MASM Include="zad5_grC.asm" />
     <MASM Include="zad5_grD.asm" />
     <MASM Include="zlicz_4bajtowe_utf16.asm" />
+    <MASM Include="zlicz_znaki_utf16.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

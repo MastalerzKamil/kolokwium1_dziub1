@@ -54,5 +54,11 @@
     <MASM Include="zlicz_4bajtowe_utf16.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="zlicz_znaki_utf16.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="SMA.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
